@@ -1,0 +1,62 @@
+/* CURSO DE SEO CSS SITE */
+*{margin:0; padding:0;}
+body{background:url(images/bg_body.jpg) repeat-x;}
+#box{width:800px; margin:0 auto; font:12px Arial, Helvetica, sans-serif;}
+
+/* STYLE DO TOPO HEADER */
+#header{height:132px; background:url(images/header_bg.jpg) no-repeat;}
+#header_logo{float:left; margin:30px 0 0 0;}
+#header_search{float:right;}
+     #header_search form{margin:40px 0 0 0;}
+     #header_search input{width:300px; padding:3px; font:14px Arial, Helvetica, sans-serif; color:#666; background:#FFF; border:none;}
+	 #header_search .btn{width:50px; padding:2px 3px; font:14px Arial, Helvetica, sans-serif; color:#666; background:#FFF; border:none; cursor:pointer;}
+	 #header_search .btn:hover{color:#C60;}
+	 
+#header_menu{float:left; width:800px; margin-top:20px;}
+#header_menu ul{float:left; list-style:none;}
+#header_menu ul li{display:inline; float:left; padding:6px;}
+#header_menu ul li a{float:left; font:bold 14px Arial, Helvetica, sans-serif; color:#FFF; text-decoration:none;}
+#header_menu ul li a:hover{text-shadow:1px 1px 3px #F00;}
+
+#content{width:800px;}
+
+#content_destaque{width:800px; float:left; margin:15px 0 5px 0; padding-bottom:5px;}
+#content_destaque_left{width:500px; float:left;}
+    #content_destaque_left h1{padding:8px; font:bold 16px Arial, Helvetica, sans-serif; color:#00CCFF;}	
+	#content_destaque_left p{font:14px Arial, Helvetica, sans-serif; color:#666; margin:15px 0;}
+    #content_destaque_left img{float:left; margin-right:5px;} 
+	#content_destaque_left a{width:74px; height:23px; background:url(images/bg_href_destaque.png) top no-repeat; float:left; margin:0 0 0 70px;
+	                         font:bold 18px Arial, Helvetica, sans-serif; color:#FFF; text-decoration:none; padding:10px 35px;}
+	#content_destaque_left a:hover{background:url(images/bg_href_destaque.png) bottom no-repeat;}
+	
+#content_destaque_right{width:285px; float:right; border-left:1px dotted #666; padding:0 0 0 10px;}
+    #content_destaque_right h1{font:bold 14px Verdana, Geneva, sans-serif; color:#069; padding:8px;}
+	#content_destaque_right img{float:left; margin-right:5px;}
+	#content_destaque_right ul{float:left; list-style:none;}
+	#content_destaque_right ul li{width:300px; float:left; border-bottom:1px dotted #666; padding:5px 0;}
+	#content_destaque_right a{width:52px; height:17px; background:url(images/bg_href_smal.jpg) top no-repeat; float:left;
+	                         font:bold 14px Arial, Helvetica, sans-serif; color:#FFF; text-decoration:none; padding:5px 22px;}
+	#content_destaque_right a:hover{background:url(images/bg_href_smal.jpg) bottom no-repeat;}
+	
+#content_artigos{border-top:1px solid #999; padding:5px 0; float:left; width:815px;}
+    #mundo_seo{float:left; width:430px; padding:5px;}
+	   #mundo_seo a{text-decoration:none; color:#069;}
+	   #mundo_seo a:hover{color:#0CF;}
+	   #mundo_seo h1{font:bold 16px Arial, Helvetica, sans-serif; color:#069; margin-bottom:10px;}
+	   #mundo_seo p{font:12px Arial, Helvetica, sans-serif; color:#666; margin:10px 0;}
+	   #mundo_seo ul{float:left; list-style:none;}
+	   #mundo_seo ul li{padding:5px; border:1px solid #999; width:420px; margin-bottom:5px; float:left;}
+	   #mundo_seo ul li img{float:left; margin-right:5px;}
+	
+	#noticias{float:right; width:335px; padding:5px 5px 5px 18px; border-left:1px dotted #999;}
+	   #noticias a{text-decoration:none; color:#069;} 
+	   #noticias a:hover{color:#0CF;} 
+	   #noticias h1{font:bold 16px Arial, Helvetica, sans-serif; color:#069; margin-bottom:5px;}
+	   #noticias p{font:12px Arial, Helvetica, sans-serif; color:#666; margin:10px 0;}
+	   #noticias ul{float:left; list-style:none;}
+	   #noticias ul li{padding:5px; border:1px solid #999; width:327px; margin-bottom:5px;}
+	   #noticias ul li img{float:left; margin-right:5px;}
+	 
+#footer{text-align:center; color:#CCC; background:#069; padding:5px; font:bold 16px Arial, Helvetica, sans-serif; clear:both; float:left; width:808px;
+        box-shadow:0px 0px 5px #000; -moz-box-shadow:0px 0px 5px #000; -webkit-box-shadow:0px 0px 5px #000;
+        border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}

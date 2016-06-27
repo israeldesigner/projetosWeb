@@ -1,0 +1,14 @@
+$azul:#0065ff;
+$amarelo:#ffff00;
+$lilas:#ff00ee;
+$azul-claro:#33f7ab;
+
+.painel {
+  background-color:$azul-claro;
+  p{
+    color:$lilas;
+  }
+  .novo {
+    color: $amarelo;
+  }
+}
