@@ -1,14 +1,25 @@
-$azul:#0065ff;
-$amarelo:#ffff00;
-$lilas:#ff00ee;
-$azul-claro:#33f7ab;
+@import "varmix/mixins";
+@import "varmix/variaveis";
 
-.painel {
-  background-color:$azul-claro;
-  p{
-    color:$lilas;
-  }
-  .novo {
-    color: $amarelo;
+.principal {
+  background-color:$background;
+  font-size: 62.5%;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+
+.form-rh {
+  @include  size(600px, auto);
+  @include center;
+  @include border-radius(5px);
+  border: 1px solid $azul-claro;
+  font-size: 1.4em;
+  background-color: $branco;
+  padding: 20px;
+  label {
+    color: $gray;
   }
 }

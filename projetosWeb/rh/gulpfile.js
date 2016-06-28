@@ -30,7 +30,7 @@ gulp.task('watch',function(){
 
 });
 
-gulp.task('default',['less','sass']);
+gulp.task('default',['less','sass','watch']);
 
 /*gulp.task('sass:watch', function(){
     gulp.watch('sass/*.sass',['sass']);
