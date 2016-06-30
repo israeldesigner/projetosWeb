@@ -1,10 +1,11 @@
+
 <?php
-define('BD_USER','root');
-define('BD_PASS','');
-define('BD_NAME','rh_bd');
 
-mysql_connect('localhost',BD_USER,BD_PASS);
-mysql_select_db(BD_NAME);
+$hostname_config = "localhost";
+$username_config = "root";
+$password_config = "";
+$database_config = "rh_bd";
+$config = mysql_connect($hostname_config, $username_config, $password_config) or die(mysql_error());
+mysql_select_db($database_config) or die (mysql_error());
 
-
- ?>
+?>

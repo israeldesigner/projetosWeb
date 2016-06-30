@@ -1,0 +1,97 @@
+/* header */
+@import url('menuzord.css');
+@import url('side-panel.css');
+
+.header {
+  background:#fff;
+  border-bottom:4px solid #c1c1c1;
+  position: relative;
+}
+
+.logoTopo {
+  background: url("../img/logos/logo.png")no-repeat;
+  width:220px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.img-logo{
+  float: left;
+}
+
+.icon-menu i{
+    font-size: 0.8em;
+}
+
+.barra-pesquisa {
+  background: #337ab7;
+  height: auto;
+  border-bottom: 5px solid #0A4980;
+  margin-top:30px;
+  padding:5px 0px;
+
+}
+
+.barra-sele {
+  font-size: 2.0em;
+  color: white;
+  border-right: 1px dotted white;
+}
+
+.barra-sele:last-child {
+  border-right: none;
+}
+
+.barra-sele:nth-child(2) {
+  vertical-align: middle;
+  padding:5px 0;
+}
+
+.barra-sele h3 {
+  margin: 0px;
+  font-size: 1.8em;
+
+}
+
+.inp-pesquisar {
+  background:#0A4980;
+  border-color: #073054;
+  box-shadow: 0px 1px 2px #000 inset;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.inp-pesquisar::-webkit-input-placeholder {
+   color: white;
+   text-indent: 25px;
+}
+
+.inp-pesquisar::-moz-input-placeholder {
+   color: white;
+}
+
+.inp-pesquisar::-o-input-placeholder {
+   color: white;
+}
+
+.inp-pesquisar::-ms-input-placeholder {
+   color: white;
+}
+
+.btn-pesquisar {
+  background: none;
+  border: none;
+  color: white;
+  position: absolute;
+  margin-top: 4px;
+}
+
+.btn-pesquisar:hover {
+  background: none;
+}
+
+.input-sele {
+  width: 65%;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+  </head>
+  <body class="principal">
+    <header class="cabecalho">
+       <div class="container-fluid">
+         <div class="row">
+           RH SYSTEM
+         </div>
+       </div>
+    </header>
+    <div class="container content">
+      <div class="row">
+        <div class="form-rh">
+          <div class="login-rh text-center">
+              <span><i class="glyphicon glyphicon-user"></i></span>
+          </div>
+          <form method="post" action="admin.html">
+            <fieldset class="form-group">
+              <label for="cad-usuario">Nome de Usuario</label>
+              <input type="text" name="usuario" class="form-control" minlength="2" id="cad-usuario" placeholder="user" value="">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="cad-nome">Senha</label>
+              <input type="password" name="senha" class="form-control" minlength="2" id="cad-nome" placeholder="*******" value="">
+            </fieldset>
+            <fieldset class="form-group">
+              <button type="submit" class="btn btn-primary btn-sm form-control">entrar</button>
+            </fieldset>
+            <fieldset class="form-group">
+              <button type="button" class="btn btn-warning btn-sm form-control" data-toggle="modal" data-target="#modal_novo">Registrar</button>
+            </fieldset>
+          </form>
+        </div>
+     </div>
+    </div>
+
+
+  <!-- Modal -registro Rh -->
+  <div class="modal fade" id="modal_novo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content modal-form">
+        <div class="">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="line-bottom"></div>
+          <h3 class="center">Cadastro</h3>
+
+          <!-- modal registro -->
+          <form id="registro_login" name="registro_login" class="" method="post" action="index.html">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="form-group mb-10">
+                  <input id="form_name" name="form_name" class="form-control" minlength="2" type="text" required="Campo obrigatório" placeholder="Nome" aria-required="true">
+                  <!--<label id="form_email-error" class="error" for="form_email" disabled="true">*campo obrigatório</label>-->
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group mb-10">
+                  <input id="form_email" name="form_email"  minlength="2" class="form-control required email" required="Campo obrigatório"
+                   accept="" type="email" placeholder="email" aria-required="true">
+                   <!--<label id="form_email-error" class="error" for="form_email" disabled="true">*campo obrigatório</label>-->
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group mb-10">
+                  <input id="form_email" name="form_email" minlength="2" class="form-control required email" required="Campo obrigatório"
+                   accept="" type="password" placeholder="senha" aria-required="true">
+                   <!--<label id="form_email-error" class="error" for="form_email" disabled="true">*campo obrigatório</label>-->
+                </div>
+              </div>
+            </div>
+            <div class="form-group mb-0 mt-20">
+              <input id="form_botcheck" name="form_botcheck" minlength="2" class="form-control" type="hidden" value="">
+              <button type="submit" class="btn btn-dark btn-info" id="btn-enviar-reg" data-loading-text="Please wait...">enviar</button>
+            </div>
+          </form>
+
+          <!-- validação javascript-->
+          <script type="text/javascript">
+            $("#registro_login").validate({
+              submitHandler: function(form) {
+                var form_btn = $(form).find('button[type="submit"]');
+                var form_result_div = '#form-result';
+                $(form_result_div).remove();
+                form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+                var form_btn_old_msg = form_btn.html();
+                form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                $(form).ajaxSubmit({
+                  dataType:  'json',
+                  success: function(data) {
+                    if( data.status == 'true' ) {
+                      $(form).find('.form-control').val('');
+                    }
+                    form_btn.prop('disabled', false).html(form_btn_old_msg);
+                    $(form_result_div).html(data.message).fadeIn('slow');
+                    setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                  }
+                });
+              }
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal - validação Form Ends -->
+</body>
+</html>

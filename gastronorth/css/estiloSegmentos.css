@@ -1,0 +1,614 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*css SEGMENTOS */
+
+.faixaHeader {
+	height:auto;
+}
+
+.conteudoEmpresa {
+	height:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.conteudoEmpresa p {
+	font-size:2.4em;
+	text-align:justify;
+}
+
+.conteudoSuper {
+	height:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.conteudoSuper p{
+	font-size:2.4em;
+	text-align:justify;
+}
+
+
+.textoEmpresa {
+}
+
+.latTexto {
+
+}
+
+.latTexto h4 {
+	background:rgba(0,113,179,1.0);
+	color:white;
+	font-size:3.0em;
+	padding:10px 0px;
+	text-decoration:none;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.latTexto h4:hover {  
+    background:rgba(49,173,246,1.0);
+}
+
+.latTexto h3 {
+	background:rgba(88,88,90,1.0);
+	color:white;
+	padding:5px 0px;
+	text-align:center;
+}
+
+.textoProdutos {
+	height:auto;
+}
+
+.prodIcon {
+	background:gray;
+	padding:10px 50px;
+	width:100%;
+	margin-bottom:10px;
+}
+
+.iconesLat {
+	text-align:center;
+}
+.winConciliador {
+  	background: #31ADF6;
+  	color: white;
+  	height: 175px;
+  	padding-top: 10px;
+  	margin-top: 10px;
+}
+
+  .winConciliador h3 {
+  	background: none;
+  	padding: 0;
+  	margin: 0;
+}
+
+.winConciliadorImg {
+  	float: left;
+  	display: inline-table;
+}
+
+.winConciliadorText {
+  	float: right;
+}
+  
+
+
+.segmentos, .NotaFiscal {
+  	clear: both;
+  	background: #5DC8A8;
+  	margin-top: 10px;
+  	padding: 10px;
+  	color: white;
+  	height: 175px;
+}
+
+.segmentos p, .NotaFiscal p {
+      float: right;
+      width: 65%;
+      margin: 0;
+      padding: 0;
+}
+
+.segmentos img, .NotaFiscal img {
+      float: left;
+}
+
+.segmentos h3 {
+  	background: none;
+  	padding: 0;
+  	margin: 0;
+  	text-align: right;
+}
+
+.NotaFiscal h3 {
+  	background: none;
+  	padding: 0;
+  	margin: 0;
+  	text-align:center;
+	margin-bottom:5px;
+	margin-left:5px;
+	
+}
+
+.conteudoEmpresa:first-child {
+
+}
+
+
+/*CSS SEGMENTOS */
+
+.contSegm {
+
+}
+.winSuper, .winBares, .winVare {
+-webkit-border-top-right-radius: 50px;
+-webkit-border-bottom-left-radius: 50px;
+-moz-border-radius-topright: 50px;
+-moz-border-radius-bottomleft: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+padding:4px;
+height:auto;
+margin-bottom:20px;
+width:auto;
+
+}
+
+.winPadarias, .winPostos, .winSites {
+-webkit-border-top-left-radius: 50px;
+-webkit-border-bottom-right-radius: 50px;
+-moz-border-radius-topleft: 50px;
+-moz-border-radius-bottomright: 50px;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+padding:4px;
+height:auto;
+margin-bottom:20px;
+width:auto;
+
+}
+
+.winSuper h3, .winPadarias h3, .winBares h3, .winPostos h3, .winVare h3, .winSites h3 {
+	font-size:4.2em;
+	font-weight:bold;
+	color:white;
+}
+
+.winSuper img, .winPadarias img, .winBares img, .winPostos img, .winVare img, .winSites img {
+	width:auto;
+	float:left;
+	margin-top:15px;
+}
+
+.winSuper p, .winPadarias p, .winBares p, .winPostos p, .winVare p, .winSites p {
+	color:white;
+	font-size:3.0em;
+	text-align:left;
+	font-style:italic;
+}
+
+.winSuper a, .winPadarias a, .winBares a, .winPostos a, .winVare a, .winSites a {
+	text-decoration:none;
+}
+
+.winSuper a:hover, .winPadarias a:hover, .winBares a:hover, .winPostos a:hover, .winVare a:hover, .winSites a:hover {
+	text-decoration:none;
+}
+
+.winSuper a:active, .winPadarias a:active, .winBares a:active, .winPostos a:active, .winVare a:active, .winSites a:active {
+	text-decoration:none;
+}
+
+
+/* SUPERMERCADOS */ /*PADARIAS*/ /*BARES*/ /*POSTOS*/
+
+.textoSupermercados, .textoPadaria, .textoBares, .textoPostos, .textoVarejo, .textoSites  {
+	display:inline;
+	padding-top:10px;
+}
+
+.tituloSuper h2{
+	color:#D8AF03;
+	font-size:3.9em;
+	margin:0 auto;
+	text-align:center;
+}
+
+.tituloPadaria h2{
+	color:#ce6b00;
+	font-size:3.9em;
+	margin:0 auto;
+	text-align:center;
+}
+
+.tituloBares h2{
+	color:#b11f24;
+	font-size:3.9em;
+	margin:0 auto;
+	text-align:center;
+}
+
+.tituloPostos h2{
+	color:#008e01;
+	font-size:3.9em;
+	margin:0 auto;
+	text-align:center;
+}
+
+.tituloVarejo h2{
+	color:#002f99;
+	font-size:3.9em;
+	margin:0 auto;
+	text-align:center;
+}
+
+.tituloSites h2{
+	color:#9a0056;
+	font-size:3.9em;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+.tituloSuper p, .tituloPadaria p, tituloBares p, .tituloPostos p, .tituloVarejo p, .tituloSites p {
+	clear:both;
+	font-size:2.8em;
+	margin-top:10px;
+}
+
+.superImg, .padariaImg, .baresImg, .postosImg, .varejoImg, .sitesImg  {
+  margin:0 auto;
+  width:auto;
+}
+
+.infoPadaria, .infoBares, .infoPostos {
+}
+
+
+.infoSuper ul{
+	font-size:4.2em;
+	color:white;
+	background:#D8AF03;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+width:auto;
+padding:5px;
+text-align:center;
+margin-top:10px;
+
+}
+
+.infoPadaria ul{
+	font-size:4.2em;
+	color:white;
+	background:#ce6b00;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+width:auto;
+padding:5px;
+text-align:center;
+margin-top:10px;
+}
+
+.infoBares ul{
+	font-size:4.2em;
+	color:white;
+	background:#b11f24;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+width:auto;
+padding:5px;
+text-align:center;
+margin-top:10px;
+}
+
+.infoPostos ul{
+	font-size:4.2em;
+	color:white;
+	background:#008e01;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+width:auto;
+padding:5px;
+text-align:center;
+margin-top:10px;
+}
+
+.infoVarejo ul{
+	font-size:4.2em;
+	color:white;
+	background:#002f99;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+width:auto;
+padding:5px;
+text-align:center;
+margin-top:10px;
+}
+
+.infoSites ul{
+	font-size:4.2em;
+	color:white;
+	background:#9a0056;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+width:auto;
+padding:5px;
+text-align:center;
+margin-top:10px;
+}
+
+.infoSites1 ul {
+	font-size:3.2em;
+	color:white;
+	background:#9a0056;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width:auto;
+	padding:2px;
+	text-align:center;
+	margin-top:20px;
+}
+
+.infoSuper li, .infoPadaria li, .infoBares li, .infoPostos li, .infoVarejo li, .infoSites li  {
+	font-size:2.4em;
+	margin-left:20px;
+	padding:2px;
+}
+	
+#listaVan {
+	background:white;
+	padding:5px;
+	width:auto;
+}
+
+#listaVanSites {
+	background:white;
+	padding:5px;
+	width:auto;
+}
+
+#listaVanSites li {
+	color:#9a0056;
+	font-weight:bold;
+	font-size:2.8em
+}
+
+#listaVanSites P {
+	font-size:2.4em;
+	margin-left:20px;
+}
+
+
+.contSuper, .caixaSuper, .contBares, .caixaBares, .contPadaria, .contVarejo, .contSites  {
+	margin-top:25px;
+	width:auto;
+	clear:both;
+}
+
+.contSuper h4, .caixaSuper h4{
+	font-size:4.2em;
+	color:#D8AF03;
+	padding-top:20px;
+}
+
+.contBares h4, .caixaBares h4 {
+	font-size:4.2em;
+	color:#B11F24;
+	padding-top:20px;
+}
+
+.contPadaria h4 {
+	font-size:4.2em;
+	color:#ce6b00;
+}
+
+.contSites h4, .caixaSites h4{
+	font-size:4.2em;
+	color:#9a0056;
+}
+
+.contVarejo h4, .caixaVarejo h4{
+	font-size:4.2em;
+	color:#002F99;
+	padding-top:20px;
+}
+	
+
+.contSuper img, .contBares img, .contPadaria img, .contSites img, .contVarejo img {
+   width:auto;
+   float:left;
+   margin-right:10px;
+}
+
+.caixaSuper img, .caixaBares img, .caixaSites img, .caixaVarejo img {
+   width:auto;
+   float:right;
+   margin-left:15px;
+}
+
+.contSites p, .caixaSites p, .contVarejo p, .caixaVarejo p {
+	font-size:2.4em;
+	padding:5px;
+}
+
+.contSuper p, .caixaSuper p, .contBares p, .caixaBares p, .caixaSites p  {
+	padding:5px;
+}
+
+.padariasSeg {
+}
+
+.ramoSuper {
+	width:auto;
+}
+
+.ramosVarejo h4{
+	font-size:3.4em;
+	background:#002F99;
+	color:white;
+	padding:4px;
+}
+
+.ramosVarejo ul {
+	background:white;
+	font-size:2.4em;
+	padding:10px;
+}
+
+.padariasSeg h4 {
+	background:#ce6b00;;
+	margin-top:30px;
+	padding:3px;
+	color:white;
+}
+
+.padariasSeg img {
+	float:left;
+	margin-right:10px;
+}
+
+.padariasSeg p {
+	font-size:2.8em;
+	width:50%;
+	height:auto;
+	margin-left:300px;
+}
+
+.ramosSuper h4{
+	background:#D8AF03;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding:2px;
+	color:white;
+	margin:0 auto;
+	font-size:4.2em;
+	width:40%;
+}
+
+.ramosSuper li {
+	font-size:2.8em;
+	width:30%;
+	margin:0 auto;
+	background:white;
+	padding-left:10px;
+}
+
+
+.btnSeg {
+	margin-left:5px;
+	margin-top:20px;
+}
+
+
+/*.btnSuper {
+	background:#D8AF03;
+	color:white;
+	font-weight:bold;
+	margin-top:10px;
+	margin-left:15px;
+	border:1px solid #D8AF20;
+}*/
+
+.btnPadaria {
+	background:#ce6b00;
+	color:white;
+	font-weight:bold;
+	margin-top:10px;
+	margin-left:15px;
+	border:1px solid #D8AF20;
+}
+
+.btnBares {
+	background:#b11f24;
+	color:white;
+	font-weight:bold;
+	margin-top:10px;
+	margin-left:15px;
+	border:1px solid #D8AF20;
+}
+
+.btnPostos {
+	background:#008e01;
+	color:white;
+	font-weight:bold;
+	margin-top:10px;
+	margin-left:15px;
+	border:1px solid #D8AF20;
+}
+
+.btnSuper:hover {
+	background:#bc9819;
+	color:white;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function:ease-out;
+    -webkit-transition-delay: 0.2s;
+    /* Standard syntax */
+    transition-duration:0.4s;
+    transition-timing-function:ease-out;
+    transition-delay: 0.2s;
+}
+
+.btnPadaria:hover {
+	background:#944d00;
+	color:white;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function:ease-out;
+    -webkit-transition-delay: 0.2s;
+    /* Standard syntax */
+    transition-duration:0.4s;
+    transition-timing-function:ease-out;
+    transition-delay: 0.2s;
+}
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+

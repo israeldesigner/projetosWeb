@@ -1,0 +1,172 @@
+
+
+
+/*
+ *  Side-Push-Panel.less
+ * -----------------------------------------------
+*/
+.side-push-panel {
+  overflow-x: hidden;
+}
+.side-push-panel.fullwidth-page #wrapper {
+  right: 0;
+  position: relative;
+}
+.side-push-panel.fullwidth-page header .header-nav-wrapper.scroll-to-fixed-fixed .container {
+  right: 0;
+}
+.side-push-panel.fullwidth-page.side-panel-left #wrapper {
+  left: 0;
+  right: auto;
+}
+.side-push-panel.fullwidth-page.side-panel-left header .header-nav-wrapper.scroll-to-fixed-fixed .container {
+  left: 0;
+  right: auto;
+}
+.side-push-panel.fullwidth-page.side-panel-open #wrapper {
+  right: 300px;
+}
+.side-push-panel.fullwidth-page.side-panel-open header .header-nav-wrapper.scroll-to-fixed-fixed .container {
+  right: 300px;
+}
+.side-push-panel.fullwidth-page.side-panel-left.side-panel-open #wrapper {
+  left: 300px;
+  right: auto;
+}
+.side-push-panel.fullwidth-page.side-panel-left.side-panel-open header .header-nav-wrapper.scroll-to-fixed-fixed .container {
+  left: 300px;
+  right: auto;
+}
+/* -------- Has Side Panel ---------- */
+.side-push-panel.has-side-panel .menuzord .showhide {
+
+}
+/* -------- Body Overlay ---------- */
+.has-side-panel .body-overlay {
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.has-side-panel.side-panel-open .body-overlay {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1111;
+}
+.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-overlay:hover {
+  cursor: url('../images/close.png') 15 15, default;
+}
+/* -------- Side Panel ---------- */
+#side-panel {
+  -webkit-backface-visibility: hidden;
+  background-color: #fff;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  right: -300px;
+  top: 0;
+  width: 250px;
+  z-index: 1112;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 2.0em;
+  border-left: 4px solid #DCDBDB;
+}
+#side-panel .side-panel-wrap {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  padding: 50px 70px 50px 40px;
+  position: absolute;
+  top: 0;
+  width: 270px;
+  color: #337ab7;
+}
+#side-panel .widget {
+  border-top: 1px solid #eeeeee;
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 220px;
+  color: #337ab7;
+}
+.side-panel-open #side-panel {
+  right: 0;
+}
+.side-panel-left #side-panel {
+  left: -300px;
+  right: auto;
+}
+.side-panel-left.side-panel-open #side-panel {
+  left: 0;
+  right: auto;
+}
+.device-touch #side-panel .side-panel-wrap {
+  overflow-y: scroll;
+}
+/* -------- Side-Panel-Nav ---------- */
+#side-panel .side-panel-nav .nav li a {
+  padding: 5px 0;
+}
+#side-panel .side-panel-nav .nav li a:hover {
+  background-color: transparent;
+  color: #a9a9a9;
+}
+#side-panel .side-panel-nav .nav ul.tree {
+  display: none;
+  margin-left: 15px;
+}
+/* -------- Side-Panel-Trigger And Close ---------- */
+#side-panel-trigger {
+  cursor: pointer;
+  display: block;
+  float: right;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 25px;
+  font-size: 2.6em;
+  z-index: 11;
+}
+
+.icon-fechar {
+  color: #C30303;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #side-panel-trigger {
+    margin-top: 15px;
+    float: left;
+  }
+}
+#side-panel-trigger-close {
+  left: 0;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.has-side-panel .body-overlay {
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
