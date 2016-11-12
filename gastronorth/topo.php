@@ -9,8 +9,8 @@
   <meta charset="utf-8">
   <!-- Bootstrap -->
   <link rel="shortcut icon" href="img/icon/favicone.ico" />
-  <link href="<?php echo $siteUrl;?>/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo $siteUrl;?>/css/estilo.css" rel="stylesheet" media="all">
+  <link href="<?php echo ROOT;?>/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo ROOT;?>/css/estilo.css" rel="stylesheet" media="all">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -119,7 +119,7 @@
         </form>
       </div>
       <div class="col-md-6 barra-sele text-center">
-        <h3 class="hidden-xs hidden-sm">Gastroentrologia - Cirugias - Especialidades</h3>
+        <h3 class="hidden-xs hidden-sm">Gastroentrologia - Cirurgias - Especialidades</h3>
       </div>
       <div class="col-md-3 barra-sele">
         <form class="form-horizontal">

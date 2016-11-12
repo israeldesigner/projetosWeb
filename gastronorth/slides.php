@@ -3,7 +3,7 @@
     <div class="sl-slider">
       <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
         <div class="sl-slide-inner">
-          <a href="<?php echo $siteUrl;?>/clinico" title="imagem médicos gastronorth"><div class="bg-img bg-img-1" ></div></a>
+          <a href="<?php echo ROOT;?>/clinico" title="imagem médicos gastronorth"><div class="bg-img bg-img-1" ></div></a>
           <!--<h2>A bene placito.</h2>
           <blockquote><p>You have just dined, and however scrupulously the slaughterhouse is concealed in the graceful distance of miles,
               there is complicity.</p><cite>Ralph Waldo Emerson</cite></blockquote>-->
@@ -17,7 +17,7 @@
           <blockquote>
             <p>Trabalhamos com os principais planos do mercado confira nossa lista.</p>
             <div class="text-right">
-              <a href="<?php echo $siteUrl;?>/convenios">
+              <a href="<?php echo ROOT;?>/convenios">
                 <button type="button" class="btn btn-primary btn-md"  data-target=""> convênios</button>
               </a>
             </div>
@@ -27,7 +27,7 @@
 
       <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
         <div class="sl-slide-inner">
-          <a href="<?php echo $siteUrl;?>/exames" title="exames gastronorth"><div class="bg-img bg-img-3"></div></a>
+          <a href="<?php echo ROOT;?>/exames" title="exames gastronorth"><div class="bg-img bg-img-3"></div></a>
           <!--<h2>Dum spiro, spero.</h2>
           <blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy
           the flesh of creatures who have been utterly deprived of everything that could make their lives worth
@@ -42,7 +42,7 @@
           <blockquote>
             <p>Siga aqui todas nossas orientações, para os principais exames tranquilos
               e responsável a Gastronorth oferece todo suporte Pré exame</p>
-            <a href="<?php echo $siteUrl;?>/orientacoes" title="orientações gastronorth">
+            <a href="<?php echo ROOT;?>/orientacoes" title="orientações gastronorth">
               <button type="button" class="btn btn-primary btn-md"  data-target=""> Orientações</button>
              </a>
           </blockquote>

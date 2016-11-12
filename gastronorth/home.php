@@ -131,7 +131,7 @@
 						</div>
 					</div>
 					<div class="medicos-principal col-sm-6">
-						<img src="img/images/doctor-6.jpg" alt="medico-imagem"  title="médico imagem"/>
+						<img src="<?php echo ROOT;?>/img/images/doctor-6.jpg" alt="medico-imagem"  title="médico imagem"/>
 					</div>
 				</div>
 			</div>
@@ -145,7 +145,7 @@
 			<div class="col-md-6 instalacoes">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="img/images/instalacoes.jpg" alt="foto clinica" title="instalações gastronorth"class="img-thumbnail" />
+						<img src="<?php echo ROOT;?>/img/images/instalacoes.jpg" alt="foto clinica" title="instalações gastronorth"class="img-thumbnail" />
 					</div>
 					<div class="col-md-6">
 						<div class="text-instalacoes">
@@ -163,7 +163,7 @@
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-6 text-center">
-						<img src="img/images/orientacoes.jpg" class="img-thumbnail img-orientacoes"
+						<img src="<?php echo ROOT;?>/img/images/orientacoes.jpg" class="img-thumbnail img-orientacoes"
 							 alt="info-gráfico orientacoes gastro" title="orientacoes exames gastronorth"/>
 					</div>
 					<div class="col-md-6">
@@ -195,7 +195,7 @@
 	<div class="barra barra-marinho col-sm-6 p-10">
 		<div class="row">
 			<div class="col-xs-6 text-right">
-				<img src="img/images/imc-icon.png" alt="icone IMC" width="100" title="ícone IMC"/>
+				<img src="<?php echo ROOT;?>/img/images/imc-icon.png" alt="icone IMC" width="100" title="ícone IMC"/>
 			</div>
 			<div class="col-xs-6">
 				<h4>Cáculo do IMC</h4>
@@ -216,7 +216,7 @@
 			<div class="col-md-6 instalacoes">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="img/images/conv.jpg" alt="convênios gastronorth" class="img-thumbnail"
+						<img src="<?php echo ROOT;?>/img/images/conv.jpg" alt="convênios gastronorth" class="img-thumbnail"
 							 title="convênios issec unimed gastronorth" />
 					</div>
 					<div class="col-md-6">
@@ -225,7 +225,7 @@
 							<p class="text-left">
 								a Gastroclínica conta com os principais equipamentos da atualidada com  performance avançada na área gastro.
 							</p>
-							<a href="/convenios" title="convênios gastronorth">
+							<a href="<?php echo ROOT;?>/convenios" title="convênios gastronorth">
 								<button class="btn btn-padrao btn-xs">Saiba Mais</button>
 							</a>
 						</div>

@@ -1,4 +1,4 @@
-<!-- Modal - marcar consulta -->
+<!-- Modal - marcar consulta - home-->
 <div class="modal fade" id="modal_novo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="container">
     <div class="row">
@@ -66,9 +66,9 @@
     </div>
   </div>
 </div>
-<!-- Modal - termina consulta -->
+<!-- Modal - termina consulta - home -->
 
-<!-- Modal - marcar consulta -->
+<!-- Modal - calculo do IMC - home-->
 <div class="modal fade" id="modal_imc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="container">
     <div class="row">
@@ -152,4 +152,28 @@
     </div>
   </div>
 </div>
-<!-- Modal - termina consulta -->
+<!-- Modal - termina calculo IMC - home -->
+
+<!-- Modal - exame/Endoscopia -->
+<div class="modal fade" id="modal_preparo_end" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content p-30">
+            <div class="p-25">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="text-theme-colored text-uppercase m-0">Preparo Exame Endoscopia</h4>
+              <div class="line-bottom mb-30"></div>
+              <!-- endoscopia-->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal - termina preparo endoscopia - exame/Endoscopia -->
+
+

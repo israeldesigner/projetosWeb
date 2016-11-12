@@ -6,7 +6,7 @@
       <div class="row">
          <div class="text-center col-sm-6">
              <h4>Formas de Pagamento</h4>
-             <img src="img/images/pag.jpg" title="cartões de crédito pagamento" alt="mastercard visa diners pagamentos"/>
+             <img src="<?php echo ROOT;?>/img/images/pag.jpg" title="cartões de crédito pagamento" alt="mastercard visa diners pagamentos"/>
          </div>
          <div class="col-sm-6">
            <div class="row">
@@ -36,7 +36,7 @@
          <div class="row">
             <div class="col-sm-3 col-xs-12 boxRoda1">
               <div class="text-center">
-                <adress><img src="<?php echo $siteUrl;?>/img/bg/hmjesus.png" width="100" class="" title="logo hospital menino jesus" alt="logo hospital menino jesus" />
+                <adress><img src="<?php echo ROOT;?>/img/bg/hmjesus.png" width="100" class="" title="logo hospital menino jesus" alt="logo hospital menino jesus" />
                 <br> R. Germano Franck , 734 - Parangaba - Fortaleza-CE</adress><br>
                 <abbr title="telefone">Tel.:</abbr> (85)3025 5656<br>
                 <strong>Informações e agendamento:</strong><br>

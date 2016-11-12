@@ -1,6 +1,6 @@
 <div class="faixa-404">
         <div class="btn-livre">
-            <a href="<?php echo $siteUrl;?>">
+            <a href="<?php echo ROOT;?>">
                 <button class="btn btn-padrao">Voltar ao Portal</button>
             </a>
         </div>

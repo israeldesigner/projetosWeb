@@ -1,6 +1,6 @@
 <div class="container faixaHeader">
     <div class="row">
-         <img src="img/bg/bg_int1.jpg" class="img-responsive" alt="bg medicos" title="background medicos gastronorth"/>
+         <img src="<?php echo ROOT;?>/img/bg/bg_int1.jpg" class="img-responsive" alt="bg medicos" title="background medicos gastronorth"/>
     </div>
 </div>
 <div class="container">

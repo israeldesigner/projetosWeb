@@ -1,78 +1,41 @@
 
-
 <div class="container faixaHeader">
     <div class="row">
-        <img src="img/bg/bg_int1.jpg" class="img-responsive" alt="bg medicos" title="background medicos gastronorth"/>
+        <img src="<?php echo ROOT;?>/img/bg/bg_int1.jpg" class="img-responsive" title="bg medicos"/>
     </div>
 </div>
-    
-<section class="container conteudoSuper">
-
+<div class="container">
     <div class="row">
-
-      <article class="col-xs-24 col-md-12 col-lg-12 textoBares">
-      <div class="tituloBares">
-          <img src="../img/icon/iconresta1.png" class="img-responsive baresImg"/>
-          <h2>Gestão Bares e Restaurantes</h2>
-            <p>Solução para seu Negócio, Restaurantes com sistema de Kilo com comanda onde a agilidade no atendimento é essencial para o melhor serviço, para Bares e Casa Noturnas a rapidez do pagamento é fundamentel na satisfação do cliente nosso sistema se torna incisivo no sistema pós-pago com comanda em cartão ou pagamento antecipado</p>
-      </div>
-
-        <span class="col-xs-12 col-md-12 col-lg-4 infoBares">
-           <ul>Caixa</ul>
-           <div id="listaVan">
-                <li>Vendas por terminais touch screen</li>
-                <li>Vendas por celular ou palm</li>
-                <li>Vendas por leitor de código de barras</li>
-                <li>Transferência, junção, conferência e fechamento de mesas</li>
-                <li>Visualização gráfica das mesas</li>
-                <li>Comunicação com o estoque através de importação e exportação de dados.</li>
-           </div>
-         </span>
-        <span class="col-xs-12 col-md-12 col-lg-4 infoBares">
-           <ul>Estoque</ul>
-           <div id="listaVan">
-                <li>Bloqueio de estoque negativo</li>
-                <li>Controle de perdas</li>
-                <li>Pedidos de compras</li>
-                <li>Relatórios de vendas por garçom, produto, fornecedor, período, etc.</li>
-                <li>Movimentações</li>
-                <li>Impostos</li>
-           </div>
-         </span>
-         
-         <span class="col-xs-12 col-md-12 col-lg-4 infoBares">
-           <ul>Financeiro</ul>
-           <div id="listaVan">
-                <li>Contas a pagar e receber</li>
-                <li>Fluxo de caixa</li>
-                <li>Projeções de vendas</li>
-                <li>Relatórios</li>
-                <li>Geração automática dos recebimentos de vendas e pagamentos a fornecedores</li>
-           </div>
-         </span>
-         
-         <span class="col-xs-24 col-md-12 col-lg-12  contBares">
-            <img src="../img/barPag.png" class="img-circle img-responsive"/>
-            <h4>Rapidez no atendimento</h4>
-            <p>Uma Casa noturna, restaurante ou bar necessita de agilidade no atendimento, nosso sistema funciona com Abertura de caixa com valor de troco, reforço de caixa e cancelamento de pedidos, impressão remota (cozinha, copa, bar...), recebimento com várias formas de pagamento.Cadastro de Clientes an entrada onde o consumo pode ser controlado através de uma comanda onde o cliente paga na saída do estabelecimento(modo pós-pago).</p>
-         </span>
-         
-         <span class="col-xs-24 col-md-12 col-lg-12 caixaBares">
-            <img src="../img/cozinhaPag.png" class="img-circle img-responsive"/>
-            <h4>Atendimento eficaz</h4>
-            <p>Sistema com eficácia para melhorar o atendimento em restaurantes com sistema self service. modulo com leitura de código de barras e impressão ou gravação dos valores diretos na comanda sem digitação por parte do atendimento</p>
-         </span>
-                 
-      </article>
-            <div class="btn-group visible-lg-inline-block btnsSeg">
-             <a href="../cadastroclientes/cadastro.php"><button class="btn btn-success btnSeg">Comprar</button></a>
-             <a href="#"><button class="btn btn-info btnSeg">Atualizar</button></a>
+        <section class="conteudoTexto">
+            <div class="col-md-8">
+                <div class="box">
+                    <div class="center">
+                        <h2>Endoscopia Digigestiva</h2>
+                        <p class="lead">É um exame que examina a mucosa da parte superior do trato intestinal, que inclui esôfago, estômago e duodeno
+                            (primeira porção do intestino delgado). O médico usará um tubo fino flexível, chamado endoscópio,
+                            o qual tem lente e luz própria e permite a visualização das imagens do exame em um vídeo monitor.</p>
+                        <p>A Endoscopia Digestiva Alta auxilia seu médico no esclarecimento dos sintomas de dores abdominais persistentes, náuseas, vômitos, dificuldade de deglutição e outros sintomas.
+                            É o melhor exame para encontrar a causa do sangramento do trato gastrointestinal superior e detecta inflamações, úlceras e
+                            tumores do esôfago, estômago e duodeno.</p>
+                        <p>O médico pode usar a Endoscopia Digestiva Alta para obter uma biópsia do esôfago, estômago ou duodeno. A biópsia é indolor e é realizada por muitas razões, entre elas para detectar
+                            a presença do Helicobacter pylori, bactéria muitas vezes presentes no estômago e que pode causar algumas doenças como a úlcera
+                            péptica.</p>
+                        <p>Outros procedimentos também podem ser realizados através da Endoscopia Digestiva Alta, como injeção de substâncias para prevenir o sangramento do trato gastrointestinal alto, dilatação de estreitamentos
+                            do esôfago, estômago e duodeno, retirada de pólipos, colocação de balão intragástrico para tratamento da obesidade e outros
+                            procedimentos.</p>
+                    </div>
+                </div><!--/.box-->
+                <div class="box">
+                    <div class="text-right">
+                        <button type="button" class="btn btn-padrao btn-xs btn-calculaImc" data-toggle="modal"
+                                data-target="#modal_preparo_end">Preparo Endoscopia</button>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <!--ASIDE-->
+        <?php include('aside.php') ?>
     </div>
+</div>
 
-</section> 
-
-<?php  require('../rodape.php') ?>
-
-	</body>
-</html>
