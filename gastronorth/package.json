@@ -1,0 +1,16 @@
+{
+  "name": "gastronorth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "gulp":"gulp",
+  },
+  "author": "idesignce",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.2.0"
+  }
+}
